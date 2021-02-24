@@ -1,0 +1,59 @@
+* {
+                   padding: 0;
+                   margin : 1;
+                   box-sizing: boder-box;
+                   }
+            .navbar{
+            background-color: black;
+            border-radius: 40px;
+            
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:left;
+            list-style: none; 
+            margin: 13px 20px;
+            
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+        .navbar li a:hover{
+            color: red
+        }
+        
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+     
+         section{
+            min-height: 100vh;
+            width: 100%;
+            dispaly : flex;
+           align-items: center;
+           justify-content: center;
+        }
+         
+         html {
+                  font-family: "Montserrat";
+                  scroll-behavior: smooth;
+               } 
+                 .scroll-down {
+                        height: 50px;
+                        width: 30px;
+              }
+
+.formshit{
+max-width: 700px;
+margin: auto;
+}
+.container1{
+backgroud-color=yellow;
+}
